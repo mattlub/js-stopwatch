@@ -22,9 +22,12 @@
 	<div class="stopwatch-container">
 	
 		<div class="stopwatch">
+		
 			<div class="display">
+				<label id="curr-lap-display">00:00:00</label>
 				<label id="time-display">00:00:00</label>
 			</div>
+			
 			<div class="buttons-container">
 				<div class="button" id="start-button">
 					<label id="start-button-text">start</label>
@@ -35,7 +38,18 @@
 				<div class="button" id="reset-button">
 					<label id="reset-button-text">reset</label>
 				</div>
+				<div class="button" id="lap-button">
+					<label id="lap-button-text">lap</label>
+				</div>
 			</div>
+			
+			<div id="lap-times-display">
+				<!-- EG
+				<div id="lap">Lap 0: 00:05:08</div>
+				-->
+
+			</div>
+			
 		</div>
 	</div>
 			

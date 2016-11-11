@@ -7,7 +7,7 @@
 .stopwatch {
 	border: 1px solid black;
 	width: 200px;
-	height: 150px;
+	height: auto;
 	background-color: grey;
 }
 
@@ -19,8 +19,14 @@
 }
 
 #time-display {
+	font-size: 1.5em;
+}
+
+#curr-lap-display {
 	font-size: 2.5em;
 }
+
+/* BUTTONS */
 
 .buttons-container {
 	border: 0px solid black;
@@ -36,3 +42,19 @@
 	border-radius: 0%;
 	background-color: white;
 }
+
+/* LAPS */
+
+#lap-times-display {
+	margin: 10px;
+    background-color: white;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.laps-title {
+	
+}
+
+
+
