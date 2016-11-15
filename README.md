@@ -10,17 +10,16 @@ business logic. The result is quite good but also a little messy, as I wasn't th
 and modulising(?) at the time.
 
 
-##### Planned Improvements
--------------------
+### Planned Improvements
 - [x] add lap button (DONE)
-- [x] style it up (DONE initially 15/11/16)
-- [] make it a more modular app
-- [] maybe combine buttons, e.g. start/stop, lap/reset
-- [] re-structure bottom half of watch to have buttons and lap times side by side
-- [] export lap times to csv
-- [] mobile friendly/mobile first
-- [] add tests 
+- [x] style it up (mainly DONE 15/11/16)
+- [ ] make it a more modular app
+- [ ] maybe combine buttons, e.g. start/stop, lap/reset
+- [ ] re-structure bottom half of watch to have buttons and lap times side by side
+- [ ] export lap times to csv
+- [ ] mobile friendly/mobile first
+- [ ] add tests 
 
-##### Collaboration
--------------------
+
+### Collaboration
 Any collaboration/comments are more than welcome.
